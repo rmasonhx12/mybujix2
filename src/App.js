@@ -30,7 +30,12 @@ function App() {
     setSelectedRole(role);
   };
 
-
+// set labelstyle
+const labelStyle = {
+  display: 'block',
+  textAlign: 'center', // Center-align the labels
+  marginBottom: '10px', // Add margin below labels for spacing
+};
 
   return (
     <div>
@@ -44,9 +49,9 @@ function App() {
       ) : (
         // Render the selection options
         <>
-          <h1>Welcome to the App</h1>
+          <h1 style={{ textAlign: 'center' }}>Welcome to Jacqueline Taylor & Friends</h1>
           <div>
-            <label>
+            <label style={labelStyle} >
               <input
                 type="radio"
                 name="role"
@@ -55,7 +60,7 @@ function App() {
               />
               Desktop
             </label>
-            <label>
+            <label style={labelStyle}>
               <input
                 type="radio"
                 name="role"
