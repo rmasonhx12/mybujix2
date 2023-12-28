@@ -22,3 +22,16 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .vercel
+.DS_Store
+.flutter
+.gitconfig
+.idea/
+.vscode/
+*.iml
+*.ipr
+.adbkeypub  # ignore adb public key
+.adbkey     # ignore adb private key
+sdkbin/
+.vercel
+build/
+```
